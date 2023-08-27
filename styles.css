@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+div{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+   background-image: url("images/torshov.jpg"); 
+   background-size: cover;
+   width: 720px;
+   height: 343px;
+   padding: 20px;
+   
+}
+
+.hero h1{
+   
+    width: 200px;
+    height: 34px;
+    color: #FFF;
+    font-family: Arial;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 122px;
+    padding: 3px 12px 5px 12px;
+    border-radius: 10px;
+    background-color: #457B9D;
+}
+
+.hero h2{
+    width: 355px;
+    height: 39px;
+    color: #FFF;
+    font-family: Arial;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 16px 183px 127px 182px;
+    padding: 5px 29px 8px 28px;
+    border-radius: 10px;
+    background-color: #1D3557;
+}
+
+.activity{
+    background-color: #F1FAEE;
+    padding: 20px;
+    width: 720px;
+    height: 378px;
+}
+
+.groups{
+    display: flex;
+    justify-content: space-between;
+}
+
+.groups div{
+    width: calc(33.33% - 10px); 
+    height: 330px;
+}
+
+
+.activity img{
+    border-radius: 50px;
+}
+
+.activity h4{
+    color: #1D3557;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Arial;
+    width: 183px;
+    height: 32px;
+    margin: 23px auto 17px auto;
+}
+
+.activity p{
+    color: #1D3557;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    width: 198px;
+    height: 55px;
+    margin: 0 auto 38px auto;
+}
+
+.activity h3{
+    color: #1D3557;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px auto;
+}
+
+
+
+.guide{
+
+    width: 720px;
+    height: 394px;
+    padding: 20px;
+}
+
+.bussiness-card{
+    background-color: #A8DADC;
+    margin: 50px 160px 50px 160px;
+    width: 400px;
+    height: 296px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.card-img img{
+    width: 180px;
+    height: 248px;
+    border-radius: 10px;
+    margin-top: 23px;
+    margin-left: 13px;
+    margin-bottom: 23px;
+}
+
+.card-content h3{
+    width: 207px;
+    height: 32px;
+    color: #1D3557;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 49px;
+    margin-right: 4px;
+    
+}
+
+.card-content p{
+    width: 189px;
+    height: 71px;
+    color: #1D3557;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    margin: 14px 11px 26px 7px;
+}
+
+.card-content h4{
+    width: 189px;
+    height: 18px;
+    margin: 0 13px 84px 5px; 
+}
+
